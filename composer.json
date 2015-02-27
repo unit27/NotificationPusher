@@ -1,10 +1,9 @@
 {
-    "name": "sly/notification-pusher",
-    "description": "Standalone PHP library for easy devices notifications push.",
-    "keywords": ["apple", "iphone", "apns", "android", "gcm", "notification", "message", "push", "pusher"],
-    "homepage": "https://github.com/Ph3nol/NotificationPusher",
-    "type": "standalone",
-    "license": "MIT",
+    "name"        : "unit27/notification-pusher",
+    "type"        : "standalone",
+    "description" : "Standalone PHP library for easy devices notifications push.",
+    "license"     : "MIT",
+
     "authors": [
         {
             "name": "Cédric Dugat",
@@ -15,6 +14,19 @@
             "homepage": "https://github.com/Ph3nol/NotificationPusher/contributors"
         }
     ],
+
+    "authors": [
+        {
+          "name"  : "Cédric Dugat",
+          "email" : "cedric@dugat.me"
+        },
+
+        {
+          "name"  : "Przemyslaw Ankowski",
+          "email" : "przemyslaw.ankowski@gmail.com"
+        }
+    ],
+
     "require": {
         "php": ">=5.3.2",
 
@@ -25,12 +37,15 @@
         "zendframework/zendservice-google-gcm": "1.*",
         "doctrine/inflector": "~1.0"
     },
+
     "require-dev": {
         "atoum/atoum": "dev-master"
     },
+
     "config": {
         "bin-dir": "bin"
     },
+
     "autoload": {
         "psr-0": {
             "Sly": "src/"

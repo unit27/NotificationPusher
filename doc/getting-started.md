@@ -79,10 +79,10 @@ $devices = new DeviceCollection(array(
 
 ## Documentation index
 
-* [Installation](https://github.com/Ph3nol/NotificationPusher/blob/master/doc/installation.md)
+* [Installation](https://github.com/unit27/NotificationPusher/blob/master/doc/installation.md)
 * Getting started
-* [APNS adapter](https://github.com/Ph3nol/NotificationPusher/blob/master/doc/apns-adapter.md)
-* [GCM adapter](https://github.com/Ph3nol/NotificationPusher/blob/master/doc/gcm-adapter.md)
+* [APNS adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/apns-adapter.md)
+* [GCM adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/gcm-adapter.md)
 * [Microsoft adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/ms-adapter.md)
-* [Create an adapter](https://github.com/Ph3nol/NotificationPusher/blob/master/doc/create-an-adapter.md)
-* [Push from CLI](https://github.com/Ph3nol/NotificationPusher/blob/master/doc/push-from-cli.md)
+* [Create an adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/create-an-adapter.md)
+* [Push from CLI](https://github.com/unit27/NotificationPusher/blob/master/doc/push-from-cli.md)

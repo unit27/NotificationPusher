@@ -26,7 +26,7 @@ class Microsoft extends \Sly\NotificationPusher\Adapter\BaseAdapter implements \
      */
     public function push(\Sly\NotificationPusher\Model\PushInterface $Push) {
         // Create microsoft client
-        $Client = new MicrosoftClient();
+        $Client = new \Sly\NotificationPusher\Client\Microsoft();
 
         // Create pushed devices collection
         $PushedDevices = new \Sly\NotificationPusher\Collection\DeviceCollection();
@@ -42,8 +42,8 @@ class Microsoft extends \Sly\NotificationPusher\Adapter\BaseAdapter implements \
             }
 
             // Something goes wrong
-            catch (\Sly\NotificationPusher\ServiceRuntimeException $Exception) {
-                throw new \Sly\NotificationPusher\PushException($Exception->getMessage());
+            catch (\Sly\NotificationPusher\Exception\RuntimeException $Exception) {
+                throw new \Sly\NotificationPusher\Exception\PushException($Exception->getMessage());
             }
 
             // Add device to pushed devices list

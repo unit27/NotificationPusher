@@ -12,7 +12,7 @@ Adapter is used to push notification to Microsoft Windows Phone devices.
 require_once '/path/to/vendor/autoload.php';
 
 use Sly\NotificationPusher\PushManager,
-    Sly\NotificationPusher\Adapter\Gcm as GcmAdapter,
+    Sly\NotificationPusher\Adapter\Microsoft as Microsoft,
     Sly\NotificationPusher\Collection\DeviceCollection,
     Sly\NotificationPusher\Model\Device,
     Sly\NotificationPusher\Model\Message,

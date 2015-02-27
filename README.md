@@ -27,7 +27,7 @@ PHP library for sending push notifications to Apple / Android / Microsoft Window
 ## Todo
 
 * Add new features (custom APNS payloads, GCM custom options, etc.)
-* Add new adapters (like Blackberry and Windows phones)
+* Add new adapters (like Blackberry, etc)
 * Write more documentation and examples
 
 ## 1.x users

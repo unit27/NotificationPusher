@@ -6,17 +6,6 @@
 
     "authors": [
         {
-            "name": "Cédric Dugat",
-            "email": "cedric@dugat.me"
-        },
-        {
-            "name": "Contributors",
-            "homepage": "https://github.com/Ph3nol/NotificationPusher/contributors"
-        }
-    ],
-
-    "authors": [
-        {
           "name"  : "Cédric Dugat",
           "email" : "cedric@dugat.me"
         },

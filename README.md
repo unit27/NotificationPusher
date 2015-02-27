@@ -20,6 +20,7 @@ Standalone PHP library for easy devices message notifications push.
 
 * APNS (Apple)
 * GCM (Android)
+* Microsoft (Microsoft)
 
 ## Documentation and examples
 
@@ -27,6 +28,7 @@ Standalone PHP library for easy devices message notifications push.
 * [Getting started](https://github.com/unit27/NotificationPusher/blob/master/doc/getting-started.md)
 * [APNS adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/apns-adapter.md)
 * [GCM adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/gcm-adapter.md)
+* [Microsoft adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/ms-adapter.md)
 * [Create an adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/create-an-adapter.md)
 * [Push from CLI](https://github.com/unit27/NotificationPusher/blob/master/doc/push-from-cli.md)
 

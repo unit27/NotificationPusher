@@ -1,7 +1,7 @@
 {
     "name"        : "unit27/notification-pusher",
     "type"        : "standalone",
-    "description" : "Standalone PHP library for easy devices notifications push.",
+    "description" : "PHP library for sending push notifications to Apple / Android / Microsoft Windows Phone users",
     "license"     : "MIT",
 
     "authors": [

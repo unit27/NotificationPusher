@@ -1,6 +1,6 @@
 # NotificationPusher
 
-Standalone PHP library for easy devices message notifications push.
+PHP library for sending push notifications to Apple / Android / Microsoft Windows Phone users
 
 ## Requirements
 

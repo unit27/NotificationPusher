@@ -33,7 +33,3 @@ Standalone PHP library for easy devices message notifications push.
 ## 1.x users
 
 Old version is still available from [1.x branch](https://github.com/unit27/NotificationPusher/tree/1.x), with dedicated declared tag.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/unit27/notificationpusher/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-

@@ -7,7 +7,7 @@ Use [Composer](http://getcomposer.org) to install this library.
 Into your `composer.json` file, just include this library with adding:
 
 ```
-"sly/notification-pusher": "2.x"
+"unit27/notification-pusher": "dev-master"
 ```
 
 Then, run `composer update sly/notification-pusher` and enjoy.

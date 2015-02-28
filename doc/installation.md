@@ -10,7 +10,7 @@ Into your `composer.json` file, just include this library with adding:
 "unit27/notification-pusher": "dev-master"
 ```
 
-Then, run `composer update sly/notification-pusher` and enjoy.
+Then, run `composer update unit27/notification-pusher` and enjoy.
 
 ## Documentation index
 

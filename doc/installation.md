@@ -22,3 +22,4 @@ Then, run `composer update sly/notification-pusher` and enjoy.
 * [Create an adapter](https://github.com/unit27/NotificationPusher/blob/master/doc/create-an-adapter.md)
 * [Push from CLI](https://github.com/unit27/NotificationPusher/blob/master/doc/push-from-cli.md)
 * [Push from CLI](https://github.com/unit27/NotificationPusher/blob/master/doc/push-from-cli.md)
+

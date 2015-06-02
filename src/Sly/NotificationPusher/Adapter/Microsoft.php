@@ -38,7 +38,7 @@ class Microsoft extends \Sly\NotificationPusher\Adapter\BaseAdapter implements \
 
             // Try to send
             try {
-                $this->response = $Client->send($Device->getToken(), $Message->getText());
+                $this->response = $Client->send($Device->getToken(), $Message->getText(), $Message->getOption("custom"));
             }
 
             // Something goes wrong

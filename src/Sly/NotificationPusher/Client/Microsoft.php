@@ -22,10 +22,11 @@ class Microsoft
      *
      * @param $uri
      * @param $message
-     * @param $customData
+     * @param null $customView
+     * @param null $customData
      * @return array
      */
-    public function send($uri, $message, $customData = null) {
+    public function send($uri, $message, $customView = null, $customData = null) {
         // Build headers
         $httpHeader = [
             "Content-Type: text/xml",
@@ -40,7 +41,7 @@ class Microsoft
             "<wp:Toast>" .
             "<wp:Text1></wp:Text1>" .
             "<wp:Text2>" . \htmlspecialchars($message) . "</wp:Text2>" .
-            ($customData !== null && \is_array($customData) ? "<custom>" . \json_encode($customData) . "</custom>" : "") .
+            ($customView !== null && $customData !== null && \is_array($customData) ? "<wp:Param>/" . $customView . "?custom=" . \json_encode($customData) . "</wp:Param>" : "") .
             "</wp:Toast>" .
             "</wp:Notification>";
 

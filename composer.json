@@ -2,27 +2,27 @@
     "name"        : "unit27/notification-pusher",
     "type"        : "standalone",
     "description" : "PHP library for sending push notifications to Apple / Android / Microsoft Windows Phone users",
+    "homepage"    : "https://github.com/unit27/NotificationPusher",
     "license"     : "MIT",
 
     "authors": [
         {
-          "name"  : "Cédric Dugat",
-          "email" : "cedric@dugat.me"
+            "name": "Cédric Dugat",
+            "email": "cedric@dugat.me"
         },
 
         {
-          "name"  : "Przemyslaw Ankowski",
-          "email" : "przemyslaw.ankowski@gmail.com"
+            "name"  : "Przemyslaw Ankowski",
+            "email" : "przemyslaw.ankowski@gmail.com"
         }
     ],
 
     "require": {
-        "php": ">=5.3.2",
-
+        "php": ">=5.5",
         "symfony/options-resolver": "~2.3",
         "symfony/console": "~2.3",
         "symfony/process": "~2.3",
-        "zendframework/zendservice-apple-apns": "1.*",
+        "zendframework/zendservice-apple-apns": "^1.1.0",
         "zendframework/zendservice-google-gcm": "1.*",
         "doctrine/inflector": "~1.0"
     },

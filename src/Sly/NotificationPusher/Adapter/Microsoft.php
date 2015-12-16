@@ -81,4 +81,13 @@ class Microsoft extends \Sly\NotificationPusher\Adapter\BaseAdapter implements \
     public function getRequiredParameters() {
         return array();
     }
+
+    /**
+     * Get defined parameters.
+     *
+     * @return array
+     */
+    public function getDefinedParameters() {
+        return array();
+    }
 }

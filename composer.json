@@ -2,6 +2,7 @@
     "name"        : "unit27/notification-pusher",
     "type"        : "standalone",
     "description" : "PHP library for sending push notifications to Apple / Android / Microsoft Windows Phone users",
+    "homepage"    : "https://github.com/unit27/NotificationPusher",
     "license"     : "MIT",
 
     "authors": [

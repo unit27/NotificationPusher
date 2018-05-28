@@ -27,10 +27,6 @@
         "zendframework/zendservice-google-gcm": "^2.1.0"
     },
 
-    "require-dev": {
-        "atoum/atoum": "^3.3.0"
-    },
-
     "config": {
         "bin-dir": "bin"
     },

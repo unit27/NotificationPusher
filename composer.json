@@ -29,7 +29,7 @@
     },
 
     "require-dev": {
-        "atoum/atoum": "dev-master"
+        "atoum/atoum": "^3.3.0"
     },
 
     "config": {
